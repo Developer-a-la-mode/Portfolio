@@ -7,7 +7,7 @@ const Header = () => {
       <ul className={classes.navlist}>
         <li className={classes.navitem}>
           <a href="#">
-            Portfolio
+            Portfolioo
           </a>
         </li>
         <li className={classes.navitem}>
