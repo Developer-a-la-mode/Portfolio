@@ -1,0 +1,41 @@
+.card__container {
+    margin: 2rem 2rem;
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px,1fr));
+    gap: 2rem;
+    background-color: transparent;
+}
+
+.card__image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.card__image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.card__content {
+    padding: 2rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.card .card__title {
+    padding-bottom: 1rem;
+}
