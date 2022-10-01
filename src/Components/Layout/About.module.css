@@ -1,0 +1,56 @@
+.about {
+    height: 90vh;
+    background-image: url("../../img/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+
+.about__container {
+
+}
+
+.about__content {
+    color: white;
+}
+
+.about__content h1 {
+    font-size: 40px;
+    margin-bottom: .5rem;
+}
+
+.about__content p {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.about__content a {
+    color: white;
+}
+
+.about__icon {
+
+}
+
+.btn {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
