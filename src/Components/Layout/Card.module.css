@@ -1,11 +1,18 @@
+.projects {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .card__container {
     margin: 2rem 2rem;
     max-width: 100%;
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(265px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
     gap: 2rem;
     background-color: transparent;
+    justify-content: center;
 }
 
 .card__image {
@@ -17,7 +24,7 @@
 .card__image img {
     max-width: 100%;
     height: auto;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;    
 }
 
 .card__content {
@@ -25,8 +32,9 @@
 }
 
 .card {
+    border-radius: 10px;
+
     background-color: white;
-    border-radius: 20px;
     transition: .3s;
 }
 
